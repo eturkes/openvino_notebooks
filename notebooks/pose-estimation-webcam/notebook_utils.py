@@ -20,7 +20,7 @@ from typing import List, NamedTuple, Optional
 # In[ ]:
 
 
-def device_widget(default="AUTO", exclude=None, added=None, description="Device:"):
+def device_widget(default="NPU", exclude=None, added=None, description="Device:"):
     import openvino as ov
     import ipywidgets as widgets
 
